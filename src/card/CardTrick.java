@@ -50,6 +50,11 @@ public class CardTrick {
         userCard.setSuit(userSuit);
         
         System.out.println("\nYou selected: " + userCard.getValue() + " of " + userCard.getSuit());
+
+        Card luckyCard = new Card();
+        luckyCard.setValue(2);
+        luckyCard.setSuit("Clubs");
+        System.out.println("\nLucky Card: " + luckyCard.getValue() + " of " + luckyCard.getSuit());
         
         Card luckyCard = new Card();
         luckyCard.setValue(2);
